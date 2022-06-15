@@ -9,7 +9,6 @@
 }
 #dropdown {
   position: relative;
-  text-align: center;
 }
 
 #dropdown:hover #dropdown-dropdown-content {
@@ -21,14 +20,17 @@
   color: white;
   display: none;
   z-index: 1;
-  
+  text-align: center;
 }
 
 #dropdown-dropdown-content ul {
   list-style-type: none;
   display: block;
 }
-
+#dropdown-dropdown-content li a {
+  text-align: center;
+  margin-right: 20px;
+}
 .nav-link{
     font-size: 16px;
     margin: 3px;
