@@ -5,3 +5,21 @@ body{
 	color: #777;
 	background: #fff;
 }
+
+
+
+.my_container {
+	margin: 0 auto;
+	width: 90%;
+
+	#myCarousel {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:900px) {
+	.my_container {
+		width: 100%;
+		margin: 0;
+	}
+}
